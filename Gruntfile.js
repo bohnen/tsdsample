@@ -1,6 +1,8 @@
 module.exports = function (grunt) {
 
     var bower_root = "bower_components";
+    var ts_src  = "src/ts";
+    var ts_dest = "dist/app";
 
     // config
     grunt.initConfig({
@@ -26,10 +28,24 @@ module.exports = function (grunt) {
         			config: 'tsd.json'
         		}
         	}
+        },
+        typescript: {
+            tsc: {
+                src: [ts_src + "**/*.ts"],
+                dest: ts_dest,
+                options: {
+                    module: 'amd',
+                    target: 'es5',
+                    sourcemap: false,
+                    declaration: false,
+                    basePath: ts_src
+                }
+            }
         }
     });
     // plugin
     grunt.loadNpmTasks('grunt-bower-task');
+    grunt.loadNpmTasks('grunt-typescript');
     grunt.loadNpmTasks('grunt-tsd');
     // tasks
 

@@ -2,26 +2,26 @@
   "version": "v4",
   "repo": "borisyankov/DefinitelyTyped",
   "ref": "master",
-  "path": "dist/lib/ts",
-  "bundle": "dist/lib/ts/tsd.d.ts",
+  "path": "src/lib/ts",
+  "bundle": "src/lib/ts/tsd.d.ts",
   "installed": {
     "durandal/durandal.d.ts": {
-      "commit": "f010cae19cdbd751d687c67c4627ffaba4a08361"
+      "commit": "a9d2023e8eb1afe534b55758f2f1d16fb69ce61f"
     },
     "jquery/jquery.d.ts": {
-      "commit": "f010cae19cdbd751d687c67c4627ffaba4a08361"
+      "commit": "a9d2023e8eb1afe534b55758f2f1d16fb69ce61f"
     },
     "knockout/knockout.d.ts": {
-      "commit": "f010cae19cdbd751d687c67c4627ffaba4a08361"
+      "commit": "a9d2023e8eb1afe534b55758f2f1d16fb69ce61f"
     },
     "jasmine/jasmine.d.ts": {
-      "commit": "f010cae19cdbd751d687c67c4627ffaba4a08361"
+      "commit": "a9d2023e8eb1afe534b55758f2f1d16fb69ce61f"
     },
     "requirejs/require.d.ts": {
-      "commit": "f010cae19cdbd751d687c67c4627ffaba4a08361"
+      "commit": "a9d2023e8eb1afe534b55758f2f1d16fb69ce61f"
     },
     "lodash/lodash.d.ts": {
-      "commit": "f010cae19cdbd751d687c67c4627ffaba4a08361"
+      "commit": "a9d2023e8eb1afe534b55758f2f1d16fb69ce61f"
     }
   }
 }
