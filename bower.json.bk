@@ -1,0 +1,56 @@
+{
+  "name": "tsd_sample",
+  "version": "0.0.1",
+  "authors": [
+    "bohnen <bohnen.net@gmail.com>"
+  ],
+  "description": "tsd sample",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.0",
+    "requirejs": "~2.1.11",
+    "durandal": "2.0.1",
+    "knockout.js": "3.0.0",
+    "lodash": "2.4.1"
+  },
+  "resolutions": {
+    "requirejs": "~2.1.11",
+    "jquery": "1.11.0",
+    "knockout.js": "3.0.0"
+  },
+  "exportsOverride": {
+      "bootstrap": {
+        "js": "dist/js/*",
+        "css": "dist/css/*",
+        "fonts": "dist/fonts/*"
+      },
+      "jquery": {
+        "js": "dist/*"
+      },
+      "durandal": {
+        "js": "js/**/*",
+        "css": "css/**/*",
+        "img": "img/**/*"
+      },
+      "knockout.js": {
+        "js": "*.js"
+      },
+      "lodash":{
+        "js": "dist/*"
+      },
+      "requirejs":{
+        "js": "require.js"
+      },
+      "requirejs-text": {
+        "js": "text.js"
+      }
+  }
+}
